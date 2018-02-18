@@ -12,4 +12,4 @@
     (throw "Wrong type of release provided. You must specify a patch, minor, or major release.")
     (.exit process 1)))
 
-(doseq [cmd cmds] (js/console.log (exec-sync cmd {"encoding" "utf-8"})))
+(doseq [cmd cmds] (js/console.log (exec-sync cmd (js/Object. {:encoding "utf-8"}))))
