@@ -1,7 +1,7 @@
 # Packcljs  
 > A simple rewrite of [packrel](https://github.com/MichelML/packrel) in clojurescript through the [lumo environment](https://www.npmjs.com/package/lumo-cljs)  
   
-[![npm](https://img.shields.io/npm/dt/packcljs.svg)]() [![npm](https://img.shields.io/npm/v/packcljs.svg)]() [![GitHub top language](https://img.shields.io/github/languages/top/badges/shields.svg)]()
+[![npm](https://img.shields.io/npm/dt/packcljs.svg)]() [![npm](https://img.shields.io/npm/v/packcljs.svg)]()
   
 ## Prerequisites  
 Make sure you have the lumo environment installed:  
