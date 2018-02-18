@@ -22,10 +22,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/MichelML/packrel.git"
+        "url": "https://github.com/MichelML/packcljs.git"
     },
     "bugs": {
-        "url": "https://github.com/MichelML/packrel/issues",
-        "email": "project@hostname.com"
+        "url": "https://github.com/MichelML/packcljs/issues",
+        "email": "michmoreau.l@gmail.com"
     }
 }
