@@ -3,9 +3,8 @@
 (require '[clojure.string :as string])
 
 (def process (node/require "process"))
-(def string-decoder (.. (node/require "string_decoder") -StringDecoder))
+(def decoder ((.. (node/require "string_decoder") -StringDecoder). "utf8")
 (def exec-sync (.. (node/require "child_process") -execSync))
-(def decoder (string-decoder. "utf8"))
 (def release-type (-> (.. process -argv) last string/lower-case string/trim))
 (def cmds [(str "npm version " release-type) "git push origin master --tags" "npm publish"])
 
