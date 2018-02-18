@@ -14,4 +14,4 @@
     (throw "Wrong type of release provided. You must specify a patch, minor, or major release.")
     (.exit process 1)))
 
-(doseq [cmd cmds] (js/console.log (decoder.write (exec-sync cmd))))
+(doseq [cmd cmds] (js/console.log (.write decoder (exec-sync cmd))))
